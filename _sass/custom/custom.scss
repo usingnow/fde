@@ -1,0 +1,24 @@
+// Logo + 品牌文字横排
+.site-title {
+  gap: 0.625rem;
+}
+
+.site-logo {
+  width: 2.25rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  flex: 0 0 auto;
+}
+
+.site-tagline {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.8125rem !important;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $purple-000;
+
+  @media (min-width: 31.25rem) {
+    font-size: 0.9375rem !important;
+  }
+}

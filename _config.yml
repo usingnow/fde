@@ -1,10 +1,14 @@
-title: Just the Docs Template
+title: FDE 采恪智创
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 # 自定义域名：站点在根路径提供，baseurl 留空
 url: https://fde.usingnow.tech
 baseurl: ""
+
+logo: "/assets/images/logo.png"
+favicon_ico: "/assets/images/favicon.ico"
+tagline: "采恪智创 / UsingNow·AI"
 
 aux_links:
   Repository: https://github.com/usingnow/fde

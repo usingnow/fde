@@ -17,3 +17,6 @@ vendor/
 # 本地 Ruby 环境
 .rbenv-gemsets
 .ruby-version
+
+# 图片处理临时 venv
+.venv-img/
