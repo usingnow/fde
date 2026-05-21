@@ -18,5 +18,6 @@ vendor/
 .rbenv-gemsets
 .ruby-version
 
-# 图片处理临时 venv
-.venv-img/
+# 本地临时文件（venv、脚本输出等）
+/tmp
+/tmp/*
