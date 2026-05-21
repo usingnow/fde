@@ -22,3 +22,33 @@
     font-size: 0.9375rem !important;
   }
 }
+
+// Callouts：用主题色阶 -000 / -100 替代默认 -300，风格参考
+// https://just-the-docs.com/docs/utilities/color/
+@mixin soft-callout($name, $color-000) {
+  p.#{$name},
+  blockquote.#{$name},
+  p.#{$name}-title,
+  blockquote.#{$name}-title {
+    border: 1px solid $color-000;
+    border-left: 4px solid $color-000;
+    background-color: $body-background-color;
+    box-shadow: none;
+  }
+
+  p.#{$name}::before,
+  blockquote.#{$name}::before,
+  p.#{$name} > .#{$name}-title,
+  blockquote.#{$name} > .#{$name}-title,
+  p.#{$name}-title > p:first-child,
+  blockquote.#{$name}-title > p:first-child {
+    color: $color-000;
+    font-weight: 600;
+  }
+}
+
+@include soft-callout(highlight, $red-000);
+@include soft-callout(important, $purple-000);
+@include soft-callout(new, $blue-300);
+@include soft-callout(note, $blue-000);
+@include soft-callout(warning, $yellow-300);
