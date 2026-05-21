@@ -41,8 +41,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # 自定义域名在根路径提供，不用 configure-pages 的 /fde 前缀。
+        # 若仍传 --baseurl "${{ steps.pages.outputs.base_path }}"，会得到 /fde/... 导致 CSS/JS 404。
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact

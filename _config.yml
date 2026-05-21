@@ -2,7 +2,9 @@ title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# 自定义域名：站点在根路径提供，baseurl 留空
+url: https://fde.usingnow.tech
+baseurl: ""
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repository: https://github.com/usingnow/fde
