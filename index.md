@@ -1,12 +1,12 @@
 ---
-title: Home
+title: 首页 Home
 layout: home
 nav_order: 1
 description:
 permalink: /
 ---
 
-# 采恪智创 - FDE 中文社区
+# 采恪智创 FDE 中文社区
 {: .fs-9 }
 
 欢迎访问 **Forward Deployment Engineer 前端部署工程师** 中文社区。
@@ -14,14 +14,26 @@ permalink: /
 
 本站基于 [Just the Docs] 主题，部署于 [GitHub Pages]，域名 [https://fde.usingnow.tech](https://fde.usingnow.tech)。
 
-<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } -->
+{% include home-cta-buttons.html %}
 
+----
 
-#### 仓库贡献者
+{: .highlight }
+AI 前沿部署工程师（AI FDE）是依托人工智能驱动的交互智能体，可通过对话指令代用户操作 Foundry 平台。它能够将自然语言需求转化为平台实际操作，支持数据转换、代码仓库管理、本体架构搭建与维护等各类工作。用户也可向其提供平台相关上下文信息，辅助各项操作高效开展。
+
+> AI FDE, the AI-powered forward deployed engineer, is an interactive agent that operates Foundry for you through conversational commands. AI FDE translates natural language requests into Foundry operations, allowing you to perform data transformations, manage code repositories, build and maintain your ontology, and more. You can also provide AI FDE with context from Foundry to facilitate and inform operations.[^1]
+
+----
+
+### 社区知识贡献者
 
 {% include github-contributors.html %}
 
-<!-- ## Callouts 样例
+---
+[^1]:[Palntir AI FDE Overview / AI FDE 的初始定义](https://www.palantir.com/docs/foundry/ai-fde/overview)
+
+<!-- 
+## Callouts 样例
 
 以下展示 `_config.yml` 中配置的五种提示框（浅色背景 + 主题色 `-000`/`-100` 色阶）。写法见 [Configuration · Callouts](https://just-the-docs.com/docs/configuration/#callouts)，色阶见 [Color Utilities](https://just-the-docs.com/docs/utilities/color/)。
 

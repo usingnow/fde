@@ -1,3 +1,35 @@
+// 首页 CTA 按钮横排
+.home-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  .btn {
+    font-size: 1.25rem !important; // 与 .fs-5 一致
+    line-height: 1.25;
+  }
+
+  .btn-label {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+}
+
+// 带图标的按钮（如「加微信联系我们」）
+.btn-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  .btn-icon {
+    flex-shrink: 0;
+    display: block;
+  }
+}
+
 // Logo + 品牌文字横排
 .site-title {
   gap: 0.625rem;
@@ -47,8 +79,8 @@
   }
 }
 
-@include soft-callout(highlight, $red-000);
-@include soft-callout(important, $purple-000);
-@include soft-callout(new, $blue-300);
-@include soft-callout(note, $blue-000);
+@include soft-callout(highlight, $blue-100);
+@include soft-callout(important, $red-100);
+@include soft-callout(new, $green-300);
+@include soft-callout(note, $purple-300);
 @include soft-callout(warning, $yellow-300);
