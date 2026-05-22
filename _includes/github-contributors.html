@@ -1,0 +1,11 @@
+{% if site.github.contributors and site.github.contributors.size > 0 %}
+<ul class="list-style-none">
+  {% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+    <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="text-grey-dk-100 fs-2">贡献者列表需在构建时通过 GitHub API 获取。本地预览请设置 <code>JEKYLL_GITHUB_TOKEN</code>，或推送到 GitHub Actions 后查看线上站点。</p>
+{% endif %}

@@ -1,11 +1,27 @@
 ---
 title: Home
 layout: home
+nav_order: 1
+description:
+permalink: /
 ---
 
-欢迎访问 **FDE 采恪智创** 文档站。本站基于 [Just the Docs] 主题，部署于 [GitHub Pages]，域名 [fde.usingnow.tech](https://fde.usingnow.tech)。
+# 采恪智创 - FDE 中文社区
+{: .fs-9 }
 
-## Callouts 样例
+欢迎访问 **Forward Deployment Engineer 前端部署工程师** 中文社区。
+{: .fs-6 .fw-300 }
+
+本站基于 [Just the Docs] 主题，部署于 [GitHub Pages]，域名 [https://fde.usingnow.tech](https://fde.usingnow.tech)。
+
+<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } -->
+
+
+#### 仓库贡献者
+
+{% include github-contributors.html %}
+
+<!-- ## Callouts 样例
 
 以下展示 `_config.yml` 中配置的五种提示框（浅色背景 + 主题色 `-000`/`-100` 色阶）。写法见 [Configuration · Callouts](https://just-the-docs.com/docs/configuration/#callouts)，色阶见 [Color Utilities](https://just-the-docs.com/docs/utilities/color/)。
 
@@ -63,4 +79,4 @@ If you want to maintain your docs in the `docs` directory of an existing project
 [README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate -->

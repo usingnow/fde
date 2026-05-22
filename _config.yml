@@ -6,6 +6,13 @@ theme: just-the-docs
 url: https://fde.usingnow.tech
 baseurl: ""
 
+# jekyll-github-metadata：提供 site.github.contributors 等
+# 若展示其他仓库贡献者，改为对应 owner/repo
+repository: usingnow/fde
+
+plugins:
+  - jekyll-github-metadata
+
 logo: "/assets/images/logo.png"
 favicon_ico: "/assets/images/favicon.ico"
 tagline: "采恪智创 / UsingNow·AI"
