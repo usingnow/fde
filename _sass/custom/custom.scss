@@ -79,6 +79,11 @@
   }
 }
 
+// 调整正文行距
+.main-content {
+  line-height: 2.0 !important;  // 默认是 1.6，1.8 会更宽松
+}
+
 @include soft-callout(highlight, $blue-100);
 @include soft-callout(important, $red-100);
 @include soft-callout(new, $green-300);
