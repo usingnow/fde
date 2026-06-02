@@ -84,6 +84,11 @@
   line-height: 2.0 !important;  // 默认是 1.6，1.8 会更宽松
 }
 
+// 增加标题与正文行距
+h1, h2, h3 {
+  margin-bottom: 0.6em !important;
+}
+
 @include soft-callout(highlight, $blue-100);
 @include soft-callout(important, $red-100);
 @include soft-callout(new, $green-300);
