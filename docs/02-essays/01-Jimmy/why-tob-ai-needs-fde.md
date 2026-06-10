@@ -3,7 +3,11 @@ title: 为什么toB AI需要FDE
 parent: 几米
 nav_order: 1
 permalink: /docs/02-essays/01-Jimmy/why-tob-ai-needs-fde
-layout: default
+layout: article
+created_at: 2026-05-22
+modified_at: 2026-06-10
+author: Jimmy
+author_github: xujianmin
 ---
 
 # 为什么 toB AI 需要 FDE

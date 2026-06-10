@@ -3,7 +3,11 @@ title: 先验、后验、似然：调参即贝叶斯推断
 parent: 几米
 nav_order: 2
 permalink: /docs/02-essays/01-Jimmy/parameter-tuning-is-bayesian-inference
-layout: default
+layout: article
+created_at: 2026-05-20
+modified_at: 2026-06-10
+author: Jimmy
+author_github: xujianmin
 ---
 
 # 先验、后验、似然：调参即贝叶斯推断
