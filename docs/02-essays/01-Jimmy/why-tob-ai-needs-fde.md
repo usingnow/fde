@@ -1,8 +1,8 @@
 ---
 title: 为什么toB AI需要FDE
-parent: 随笔
+parent: 几米
 nav_order: 1
-permalink: /docs/essays/why-tob-ai-needs-fde
+permalink: /docs/02-essays/01-Jimmy/why-tob-ai-needs-fde
 layout: default
 ---
 

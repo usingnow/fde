@@ -1,8 +1,8 @@
 ---
 title: 先验、后验、似然：调参即贝叶斯推断
-parent: 随笔
+parent: 几米
 nav_order: 2
-permalink: /docs/essays/parameter-tuning-is-bayesian-inference
+permalink: /docs/02-essays/01-Jimmy/parameter-tuning-is-bayesian-inference
 layout: default
 ---
 

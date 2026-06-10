@@ -1,8 +1,9 @@
 ---
 title: FDE 的缘起
+parent: FDE：AI 前沿交付
 nav_order: 2
 layout: default
-permalink: /fde-origin/
+permalink: /docs/01-fde/fde-origin/
 ---
 
 # FDE 是什么？
@@ -52,5 +53,5 @@ In-Q-Tel 的 Louie 也非常支持这个模式，因为
 
 ### 相关内容
 
-- [Palantir 如何定义 FDE](/fde-definitions/inventor/)
-- [推荐阅读](/fde-definitions/reference/)
+- [Palantir 如何定义 FDE](/docs/01-fde/fde-definitions/inventor/)
+- [推荐阅读](/docs/01-fde/fde-definitions/reference/)

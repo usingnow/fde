@@ -3,7 +3,7 @@ title: 发明者
 parent: FDE 的1001种定义
 nav_order: 1
 layout: default
-permalink: /fde-definitions/inventor/
+permalink: /docs/01-fde/fde-definitions/inventor/
 ---
 
 # FDE 的模式：目标清晰，职责模糊

@@ -3,7 +3,7 @@ title: 云厂商
 parent: FDE 的1001种定义
 nav_order: 4
 layout: default
-permalink: /fde-definitions/cloud-supplier/
+permalink: /docs/01-fde/fde-definitions/cloud-supplier/
 ---
 
 # 云厂商：Google Cloud / AWS / Azure

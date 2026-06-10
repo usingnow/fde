@@ -3,7 +3,7 @@ title: 推荐阅读
 parent: FDE 的1001种定义
 nav_order: 8
 layout: default
-permalink: /fde-definitions/reference/
+permalink: /docs/01-fde/fde-definitions/reference/
 ---
 
 ### [From CIA cash to local police: How Palantir got its start](https://finance.yahoo.com/news/cia-cash-local-police-palantir-163513772.html){:target="_blank"}

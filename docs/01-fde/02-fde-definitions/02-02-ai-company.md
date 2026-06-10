@@ -3,7 +3,7 @@ title: AI模型公司
 parent: FDE 的1001种定义
 nav_order: 2
 layout: default
-permalink: /fde-definitions/ai-company/
+permalink: /docs/01-fde/fde-definitions/ai-company/
 ---
 
 # AI 模型公司：OpenAI / Anthropic
