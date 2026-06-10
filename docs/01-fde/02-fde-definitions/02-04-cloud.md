@@ -4,6 +4,10 @@ parent: FDE 的1001种定义
 nav_order: 4
 layout: default
 permalink: /docs/01-fde/fde-definitions/cloud-supplier/
+layout: article
+created_at: 2026-06-01
+modified_at: 2026-06-08
+author_key: fentick
 ---
 
 # 云厂商：Google Cloud / AWS / Azure

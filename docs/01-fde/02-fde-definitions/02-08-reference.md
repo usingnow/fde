@@ -4,6 +4,10 @@ parent: FDE 的1001种定义
 nav_order: 8
 layout: default
 permalink: /docs/01-fde/fde-definitions/reference/
+layout: article
+created_at: 2026-06-01
+modified_at: 2026-06-08
+author_key: fentick
 ---
 
 ### [From CIA cash to local police: How Palantir got its start](https://finance.yahoo.com/news/cia-cash-local-police-palantir-163513772.html){:target="_blank"}
