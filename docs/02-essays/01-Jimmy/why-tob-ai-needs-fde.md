@@ -6,8 +6,7 @@ permalink: /docs/02-essays/01-Jimmy/why-tob-ai-needs-fde
 layout: article
 created_at: 2026-05-22
 modified_at: 2026-06-10
-author: Jimmy
-author_github: xujianmin
+author_key: jimmy
 ---
 
 # 为什么 toB AI 需要 FDE

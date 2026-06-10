@@ -7,8 +7,7 @@ permalink: /docs/01-fde/fde-origin/
 layout: article
 created_at: 2026-06-01
 modified_at: 2026-06-08
-author: Fentick
-author_github: fentick
+author_key: fentick
 ---
 
 # FDE 是什么？

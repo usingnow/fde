@@ -6,8 +6,7 @@ permalink: /docs/02-essays/01-Jimmy/parameter-tuning-is-bayesian-inference
 layout: article
 created_at: 2026-05-20
 modified_at: 2026-06-10
-author: Jimmy
-author_github: xujianmin
+author_key: jimmy
 ---
 
 # 先验、后验、似然：调参即贝叶斯推断

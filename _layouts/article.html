@@ -26,18 +26,13 @@ layout: table_wrappers
         <main>
           <hr class="article-meta-divider">
           <div class="article-meta">
-            {% if page.author %}
-              <div class="article-author">
-                {% if page.author_github %}
-                  <a href="https://github.com/{{ page.author_github }}" class="author-link" target="_blank" rel="noopener">
-                    <img src="https://github.com/{{ page.author_github }}.png?size=40" alt="{{ page.author }}" class="author-avatar" width="20" height="20">
-                    <span class="author-name">{{ page.author }}</span>
-                  </a>
-                {% else %}
-                  <span class="author-name">{{ page.author }}</span>
-                {% endif %}
-              </div>
-            {% endif %}
+            {% assign author = site.data.authors[page.author_key] %}
+            <div class="article-author">
+              <a href="https://github.com/{{ author.github }}" class="author-link" target="_blank" rel="noopener">
+                <img src="https://github.com/{{ author.github }}.png?size=40" alt="{{ author.name }}" class="author-avatar" width="20" height="20">
+                <span class="author-name">{{ author.name }}</span>
+              </a>
+            </div>
             <div class="article-dates">
               {% if page.created_at %}创建于 {{ page.created_at | date: "%Y-%m-%d" }}{% endif %}
               {% if page.modified_at and page.modified_at != page.date %} · 更新于 {{ page.modified_at | date: "%Y-%m-%d" }}{% endif %}
